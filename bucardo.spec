@@ -3,11 +3,12 @@ Summary:	PgSQL replication system for both multi-master and multi-slave operatio
 Summary(pl.UTF-8):	System replikacji dla PgSQL wspierający multi-master i multi-slave
 Name:		bucardo
 Version:	4.4.0
-Release:	0.1
+Release:	0.2
 License:	BSD
 Group:		Applications/Databases
 URL:		http://bucardo.org/
 Source0:	http://bucardo.org/downloads/%{realname}-%{version}.tar.gz
+#Source0-md5:	bf32b4dc7302baa1bc269dd34ff65da5
 BuildRequires:	perl(DBD::Pg)
 BuildRequires:	perl(DBI)
 BuildRequires:	perl(DBIx::Safe)
